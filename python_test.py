@@ -1,8 +1,6 @@
 x = [100,110,120,130,140,150]
-y=x
+y=[n*5 for n in x]
 print(y)
-for i in y:
-    print(y*5)
 
 def divisible_by_three (n):
     n = (1,30)
